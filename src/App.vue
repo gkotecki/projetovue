@@ -9,14 +9,14 @@
 
         <b-container fluid id="containernavbar">
             <b-row>
-                <b-col class="col-3 px-0 collapse fade show" v-if="!isMobile()">
+                <div class="col col-3 px-0 collapse fade show" v-if="!isMobile()">
                     <sidebar />
-                </b-col>
+                </div>
                 <b-col>
                     <b-collapse id="collapse-1" class="mt-2">
                         <b-card>
                             <b-nav fill>
-                                <b-nav-item id="navitem" to="/">
+                                <b-nav-item id="navitem" to="/home">
                                     <h6>Home</h6>
                                 </b-nav-item>
                                 <b-nav-item id="navitem" to="/books">
