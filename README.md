@@ -1,5 +1,3 @@
-# my-app-cli-bsvue
-
 ## Project setup
 ```
 npm install
