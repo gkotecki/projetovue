@@ -39,11 +39,9 @@
                         </div>
 
                         <button type="submit" class="btn btn-block btn-primary">Submit</button>
-                        <div class="mt-2 text-center">
-                            <h6>
-                                Don't have an account?
-                                <router-link class="nav-link" to="register">Create one</router-link>
-                            </h6>
+                        <div class="pt-3 text-center">
+                            Don't have an account?
+                            <router-link class="nav-link" to="register">Create one</router-link>
                         </div>
                     </form>
                 </div>
@@ -63,10 +61,6 @@ export default {
             },
             show: true
         };
-    },
-    mounted() {
-        this.form.email = this.$store.email;
-        this.form.password = this.$store.password;
     },
     methods: {
         onSubmit(evt) {

@@ -21,8 +21,8 @@
                     <h6>My loans</h6>
                 </router-link>
             </li>
-            <hr />
-            <h6 class="pl-3 pt-5 muted">Logged in as {{this.$store.currentUserId}}</h6>
+            <!-- <hr />
+            <h6 class="pl-3 pt-5 muted">Logged in as {{this.$store.currentUserId}}</h6>-->
         </ul>
     </div>
 </template>
